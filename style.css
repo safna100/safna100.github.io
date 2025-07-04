@@ -1,0 +1,142 @@
+/* header */
+body {
+   background-color: #FFF5F5;
+   height: 100vh;
+}
+
+
+.header-cnt {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+    height: 80px;
+
+}
+
+.header {
+   background: linear-gradient(56deg, #f5e1b7, #AFA197, transparent);
+   position: fixed;
+   width: 100%;
+   height: 80px;
+   z-index: 100;
+
+}
+
+/* .header2-cnt {
+   margin-top: 20px;
+   margin-left: 47px;
+} */
+
+.header-cnt img {
+   margin-top: 10px;
+}
+
+.header2-cnt nav ul {
+   display: flex;
+align-items: center;
+   list-style: none;
+   gap: 46px;
+   margin-bottom: 0px;
+}
+
+.header2-cnt nav ul a {
+   color: #020202
+}
+
+a {
+   text-decoration: none;
+}
+
+.hero h3 {
+   font-family: "Labrada", serif;
+   color: #B48A00;
+   font-size: 36px;
+}
+
+.hero h1 {
+   font-family: "Labrada", serif;
+   font-size: 55px;
+   /* background: linear-gradient(121deg, #000, #79430e, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+   color: #020202;
+}
+
+.hero-img {
+   position: relative;
+}
+
+.hero-cnt h1 {
+   width: 70%;
+
+   /* position: absolute; */
+}
+
+.hero-cnt {
+   position: absolute;
+   bottom: 115px;
+   left: 214px;
+}
+
+/* btn */
+.btn-1 a {
+   color: white;
+}
+
+.btn-1 {
+   border-radius: 8px;
+   background-color: #7D6103;
+   padding: 7px 8px;
+   color: #FFFEFE;
+   display: flex;
+   align-items: center;
+}
+
+.btn-2 a {
+   border-radius: 8px;
+   border: solid black 1px;
+   padding: 10px 15px;
+   color: #020202;
+   font-size: 16px;
+
+}
+
+.btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+/* .icon {
+   background-color: white;
+   padding: 5px 6px;
+   border-radius: 80px;
+} */
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-left: 142px;
+    margin-top: 96px;
+}
+.hero-2-img{
+   position: relative;
+}
+.hero-2-img img{
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+#banner{
+   padding-top: 100px;
+}
+a.social i{
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 100%;
+      color: #B48A00;
+      font-size: 23px;
+}
