@@ -1,7 +1,8 @@
 /* header */
 body {
-   background-color: #FFF5F5;
+   background-color: #ffffff;
    height: 100vh;
+   /* background: linear-gradient(99deg, #FFF5F5, #59591F); */
 }
 
 
@@ -78,6 +79,9 @@ a {
    bottom: 115px;
    left: 214px;
 }
+#banner{
+    background-color: #cac8c354;
+}
 
 /* btn */
 .btn-1 a {
@@ -97,7 +101,7 @@ a {
    border-radius: 8px;
    border: solid black 1px;
    padding: 10px 15px;
-   color: #020202;
+   color: hsl(0, 0%, 1%);
    font-size: 16px;
 
 }
@@ -118,8 +122,9 @@ a {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    margin-left: 142px;
-    margin-top: 96px;
+    position: absolute;
+    right: 0;
+    width: fit-content;
 }
 .hero-2-img{
    position: relative;
@@ -127,11 +132,12 @@ a {
 .hero-2-img img{
    position: absolute;
    top: 0;
-   right: 0;
+   right: 70px;
 }
 
 #banner{
    padding-top: 100px;
+   padding-bottom: 70px;
 }
 a.social i{
       background-color: #fff;
@@ -139,4 +145,70 @@ a.social i{
       border-radius: 100%;
       color: #B48A00;
       font-size: 23px;
+}
+  /* #services */
+#services{
+   /* background-color: #fff; */
+}
+.services-cnt h4{
+   color: #B48A00;
+}
+.services-cnt h2{
+   font-size: 55px;
+}
+.uiux img {
+    border-radius: 10px;
+    background-color: #C09D27;
+    padding: 6px 9px;
+    margin-bottom: 29px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.uiux {
+    margin-top: 70px;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 10px;
+}
+.uiux h5{
+   color: #686767;
+   font-size: 35px;
+   margin-left: 83px;
+}
+.services-heading{
+    margin-right: 100px;
+    padding: 10px;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uiux p{
+    font-size: 18px;
+    text-align: center;
+    color: #1C1C1C;
+    font-family: i;
+    /* margin-right: 56px; */
+}
+.ui-btn {
+   border: solid .5px #5C4806;
+   border-radius: 8px;
+   padding: 10px 8px;
+   width: fit-content;
+}
+.ui-btn a{
+   color:#000000;
+   font-weight: 10px;
+}
+.banner{
+   position: relative;
+}
+.uxbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui-btn i{
+   rotate: 40deg;
+   font-size: 16px;
 }
