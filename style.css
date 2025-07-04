@@ -69,8 +69,7 @@ a {
 }
 
 .hero-cnt h1 {
-   width: 70%;
-
+   
    /* position: absolute; */
 }
 
@@ -161,7 +160,6 @@ a.social i{
     background-color: #C09D27;
     padding: 6px 9px;
     margin-bottom: 29px;
-    margin-left: 165px;
     margin-top: 20px;
 }
 .uiux {
@@ -226,4 +224,13 @@ a.social i{
     }
 .bg-body-tertiary {
     background-color: rgb(248 249 250 / 0%) !important;
+}
+.text-center{
+   text-align: center;
+}
+.animate__animated.animate__rotateIn {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__bounceIn {
+  --animate-duration: 5s;
 }
