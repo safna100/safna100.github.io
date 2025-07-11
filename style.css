@@ -171,7 +171,7 @@ a.social i{
 .uiux h5{
    color: #686767;
    font-size: 35px;
-   margin-left: 83px;
+  
 }
 .services-heading{
     margin-right: 100px;
@@ -189,15 +189,25 @@ a.social i{
     margin-top: 27px;
 } */
 .ui-btn {
-  background-color: #323232;
-  color: white;
+  border: dashed 1px #B48A00;
+  color: rgb(3, 3, 3);
    border-radius: 8px;
    padding: 10px 8px;
    width: fit-content;
 }
 .ui-btn a{
-   color:#fafafa;
+   color:#000000;
    font-weight: 10px;
+}
+.ui-btn:hover a{
+   color:#f3f2f2;
+   font-weight: 10px;
+}
+.ui-btn:hover{
+   border: dashed 1px #000;
+}
+.uiux:hover{
+   background: #B48A00;
 }
 .banner{
    position: relative;
@@ -234,3 +244,107 @@ a.social i{
 .animate__animated.animate__bounceIn {
   --animate-duration: 5s;
 }
+/* about */
+
+.aboutme{
+  background-image: url("../img/goldbage.jpg");
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+  height: 500px;
+  position: relative;
+}
+.about_cnt span{
+    color: #C09D27;
+}
+.about h2{
+   margin-top: 30px;
+}
+.title_style{
+    background-color: #F4F2ED;
+    padding: 4px 8px;
+    border-radius:  12px 15px;
+    display: inline-block;
+    border-bottom: solid#C09D27 2px;
+    color: #534102;
+}
+.about_cnt p{
+   margin-top: 30px;
+}
+#services {
+    margin-bottom: 56px;
+}
+.cv_btn {
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px;
+    width: fit-content;  
+    background-color: white;
+    padding: 10px 6px;
+    border-radius: 13px 4px;
+    
+    
+    
+}
+.cv_btn a{
+   color: #000;
+}
+.cv_btn a i{
+   color: #B48A00;
+}
+.socialmedia{
+    background-color: #ba8f3d52;
+    font-size: 15px;
+    padding: 2px 5px;
+    border-radius: 8px 1px;
+    border-bottom: solid 2px #BA8F3D;
+    color: #000;
+    
+    
+}
+
+a.mail {
+    font-size: 12px;
+    color: #000;
+    margin-top: 10px;
+}
+.year h5{
+   margin-bottom: 70px;
+
+}
+.edu-cnt h5{
+   margin-bottom: 70px;
+   
+}
+.head {
+    margin: 50px 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.head i{
+    background-color: #a1721bf7;
+    color: white;
+    font-size: 11px;
+    padding: 10px 10px;
+    border-radius: 100%;
+}
+.head_edu{
+    display: flex;
+    align-items: center;
+    background-color: #F4F2ED;
+    padding: 5px 24px;
+    border-radius: 3px 29px;
+    border-top: solid 2px #B48A00;
+}
+.head_edu span {
+    color: #B48A00;
+    
+}
+
+
+
+   
+
+
