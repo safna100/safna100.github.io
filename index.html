@@ -16,6 +16,8 @@
         <!-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
 </head>
 
 <body>
@@ -75,16 +77,12 @@
         <div class="container">
             <div class="banner">
                 <div class="row">
-                    <div class="col-md-8 col-sm-12">
-                        <div class="hero">
-                            <div class="hero-img">
-                                <img src="img/Ellipse 24.png" alt="" class="animate__animated animate__rotateIn__animated animate__rotateIn animate__infinite	infinite">
-                                <div class="hero-cnt">
-                                    <h3>UI/UX Designer</h3>
-                                    <h1>Hello! <span><img src="img/wave 1.png" alt="" class="animate__animated animate__bounceIn__animated animate__bounceIn animate__infinite	infinite"></span>I am Khadeeja Safna</h1>
-                                </div>
-                            </div>
-                            <div class="btn">
+                    <div class="col-md-6 col-sm-12 mt-5">
+                      <h3>UI/UX Designer</h3>
+                                    <h1>Hello! <span><img src="img/wave 1.png" alt="" class="animate__animated animate__bounceIn__animated animate__bounceIn animate__infinite	infinite"></span><br>I am Khadeeja Safna</h1>
+                        <div class="hero mt-5 float-start">
+                                
+                            <div class="btn pl-0">
                                 <div class="btn-1">
                                     <a href="ct-bt">Portfolio</a>
                                     <img src="img/arrow-forward-outline.png  " width="30px">
@@ -95,13 +93,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col">
-                        <div class="hero-2">
-                            <div class="hero-2-img">
-                                <img src="img/IMG-20250622--removebg-preview 1.png">
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                      <img src="img/mobilemoq.png" alt="" class="mobile">
+
                     </div>
+                  
                     <div class="icons">
                         <a href="google.com" class="social"><i class="fa-brands fa-instagram icon "></i></a>
                         <a href="google.com" class="social"><i class="fa-brands fa-whatsapp icon  "></i></a>
@@ -113,7 +109,42 @@
         </div>
 
     </section>
-    <section id="services">
+    <section id="about" class="aboutme">
+      <div class="container">
+          <div class="about_cnt">
+              <h1 class="mb-5">About Me</h1>
+          <div class="me">
+            <div class="dp-section">
+              <img src="img/Safna2.jpg" alt="" class="dp">
+              <div class="cir">
+                <img src="img/cir.png" alt="" class="cir">
+                <img src="img/Dp-icon.png" class="dp-icon">
+              </div>
+            </div>
+            
+
+          </div>
+          
+          <h2 class="mt-3">Who is <span>Khadeeja Safna</span>?</h2>
+          <p>Welcome to my Portfolio! I am a passionate and fresh UI/UX <br> Designer and Front-End Developer who bridges the gap between <br> beautiful and functional code.I craft seamless digital experiences by <br> combining thoughtful users-centered  design with clean,<br> responsive front-end development. 
+         </p>
+
+          </div>
+          <div>
+             <div class="cv_btn float-start"><a href="#">Download CV <i class="fa-solid fa-download"></i></a>
+          </div>
+            <div class="media float-end">
+               <a href="google.com" class="socialmedia"><i class="fa-brands fa-instagram icon "></i></a>
+               <a href="google.com" class="socialmedia"><i class="fa-brands fa-whatsapp icon  "></i></a>
+               <a href="google.com" class="socialmedia"><i class="fa-brands fa-linkedin-in icon"></i></a>
+               <a href="google.com" class="socialmedia"><i class="fa-brands fa-behance icon "></i></a><br>
+               <a  href="#" class="mail">Khadeejasafna@gmail.com</a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+        <section id="services">
         <div class="container">
             <div class="row">
                 <div class="services-cnt">
@@ -185,32 +216,7 @@
 
         </div>
     </section>
-    <section id="about" class="aboutme">
-      <div class="container">
-        <div class="about">
-          <div class="about_cnt">
-           <div class="title_style">
-              About Me
-          </div>
-          <h2>Who is <span>Khadeeja Safna</span>?</h2>
-          <p>Welcome to my Portfolio! I am a passionate and fresh UI/UX <br> Designer and Front-End Developer who bridges the gap between <br> beautiful and functional code.I craft seamless digital experiences by <br> combining thoughtful users-centered  design with clean,<br> responsive front-end development. 
-         </p>
 
-          </div>
-          <div>
-             <div class="cv_btn float-start"><a href="#">Download CV <i class="fa-solid fa-download"></i></a>
-          </div>
-            <div class="media float-end">
-               <a href="google.com" class="socialmedia"><i class="fa-brands fa-instagram icon "></i></a>
-               <a href="google.com" class="socialmedia"><i class="fa-brands fa-whatsapp icon  "></i></a>
-               <a href="google.com" class="socialmedia"><i class="fa-brands fa-linkedin-in icon"></i></a>
-               <a href="google.com" class="socialmedia"><i class="fa-brands fa-behance icon "></i></a><br>
-               <a  href="#" class="mail">Khadeejasafna@gmail.com</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- <section id="education">
       <div class="container">
         <div class="row">
@@ -272,7 +278,7 @@
              
           </div>
          
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-2">
               <div class="year">
                 <h5>2015</h5>
@@ -289,7 +295,101 @@
               <h5>G.R.F.T.HSS Tanur</h5>
               <h5>Cooperative College Tirur</h5>
               <h5>Skilz Hub Kottakkal</h5>
-            </div>
+            </div> -->
+            <section id="timeline">
+  
+  <div class="tl-item">
+    
+    <div class="tl-bg" style="background-image: url(https://placeimg.com/801/801/nature)"></div>
+    
+    <div class="tl-year">
+      <p class="f2 heading--sanSerif">2025</p>
+    </div>
+
+    <div class="tl-content">
+      <h1>Skilz Hub Kottakkal</h1>
+    </div>
+
+  </div>
+
+  <div class="tl-item">
+    
+    <div class="tl-bg" style="background-image: url(https://placeimg.com/802/802/nature)"></div>
+    
+    <div class="tl-year">
+      <p class="f2 heading--sanSerif">2020</p>
+    </div>
+
+    <div class="tl-content">
+      <h1 class="f3 text--accent ttu">Cooperative College Tirur</h1>
+    </div>
+
+  </div>
+
+  <div class="tl-item">
+    
+    <div class="tl-bg" style="background-image: url(https://placeimg.com/803/803/nature)"></div>
+    
+    <div class="tl-year">
+      <p class="f2 heading--sanSerif">2017</p>
+    </div>
+
+    <div class="tl-content">
+      <h1 class="f3 text--accent ttu">G.R.F.T.HSS Tanur</h1>
+    </div>
+
+  </div>
+
+  <div class="tl-item">
+    
+    <div class="tl-bg" style="background-image: url(https://placeimg.com/800/800/nature)"></div>
+    
+    <div class="tl-year">
+      <p class="f2 heading--sanSerif">2015</p>
+    </div>
+
+    <div class="tl-content">
+      <h1 class="f3 text--accent ttu">Devadhar Government School Tanur</h1>
+    </div>
+
+  </div>
+</section>
+<section id="Portfolio">
+  <div class="container">
+    <div class="portfolio">
+      <p><span>-</span>My Portfolio</p>
+      <a class="project-btn" href="bt-n">View All Projects
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <h2>Let’s Have a <span>Look at My Portfolio</span></h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="work">
+            <img src="img/Laptop Mockup of Fashion Clothing Instagram Post 1.png " width="450px" alt="">
+          </div>
+        </div>
+         <div class="col-md-6">
+          <div class="work">
+            <img src="img/Laptop Mockup of Fashion Clothing Instagram Post 1.png " width="450px" alt="">
+          </div>
+        </div>
+         <div class="col-md-6">
+          <div class="work">
+            <img src="img/Laptop Mockup of Fashion Clothing Instagram Post 1.png " width="450px" alt="">
+          </div>
+        </div>
+         <div class="col-md-6">
+          <div class="work">
+            <img src="img/Laptop Mockup of Fashion Clothing Instagram Post 1.png " width="450px" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
           </div>
         </div>
       </div>
@@ -308,10 +408,19 @@
 
 
 
-
-
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
+<script>
+  $(window).scroll(function () {
+if ($(window).scrollTop() >= 200) {
+$('.header').css('background','linear-gradient(56deg, #f5e1b7, #AFA197, transparent)');
+} else {
+$('.header').css('background','transparent');
+}
+});
+</script>
 </body>
 
 </html>
