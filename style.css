@@ -506,3 +506,101 @@ img.dp-icon {
     bottom: 20px;
     right: 20px;
 }
+
+.work img {
+    width: 100%;
+    padding: 5px 0px;
+}
+section.tools {
+    background: #9d916a;
+}
+.mytools i{
+    font-size: 50px;
+    border: solid 1px #ffff;
+    border-radius: 10px;
+    padding: 8px 15px;
+
+}
+.tool h2{
+    text-align: center;
+}
+ /* footer */
+ section.footer {
+    background: #534F4F;
+    padding: 50px 0;
+}
+.cool{
+   color:#F2C330;
+}
+.mail i{
+   color: #C9A430;
+   font-size: 20px;
+}
+
+.mail span {
+    color: white;
+    font-size: 20px;
+    margin-left: 7px;
+    font-weight: lighter;
+}
+
+
+a.mail {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.contact2 {
+    border: solid 1px #C9A430;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.footer h4{
+   color: white;
+   margin-bottom: 20px;
+}
+a.icon-fb {
+    color: white;
+    padding-right: 40px;
+}
+a.icon-insta {
+    color: white;
+    background: #C9A430;
+    padding: 3px 6px;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+.social_footer {
+    margin-top: 180px;
+}
+.contact-cnt {
+    background: white;
+    padding: 20px 5px;
+}
+
+.web {
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+.buttons button{
+   inline-size: fit-content;
+}
+.buttons button:focus{
+   background: #ffc107;
+   border: none;
+}
+.footer-form input{
+   border: none;
+   border-bottom: solid 1px #C9A430;
+   margin-bottom: 20px;
+}
+.footer-form textarea{
+   border: none;
+   border-bottom: solid 1px #C9A430;
+   margin-bottom: 20px;
+}
+.footer-form input:focus{
+   border: none;
+   background: none;
+   box-shadow: none;
+}
