@@ -540,9 +540,14 @@ img.dp-icon {
 }
 
 .work img {
-    width: 100%;
+    width: 40%;
     padding: 5px 0px;
+    margin-top: 20px;
 }
+.wrk{
+    text-align: center;
+}
+
 section.tools {
     background: #9d916a;
 }
