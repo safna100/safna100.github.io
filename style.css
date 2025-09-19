@@ -112,7 +112,7 @@ ul.navbar-nav li a:hover{
    display: flex;
    align-items: center;
 }
-.btn-1 :hover {
+.btn-1:hover {
    border-radius: 8px;
    background-color: #ffffff;
    padding: 7px 8px;
@@ -120,7 +120,7 @@ ul.navbar-nav li a:hover{
    transition: 0.5s;
    
 }
-.btn-1 a :hover {
+.btn-1 a:hover {
    color:#7D6103;
 }
 
@@ -557,6 +557,13 @@ section.tools {
     border-radius: 10px;
     padding: 8px 15px;
 
+}
+.mytools img {
+    font-size: 50px;
+    border: solid 1px #ffff;
+    border-radius: 10px;
+    padding: 0px 1px;
+    width: 71px;
 }
 .tool h2{
     text-align: center;
