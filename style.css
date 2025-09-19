@@ -540,13 +540,13 @@ img.dp-icon {
 }
 
 .work img {
-    width: 90%;
+    width: 60%;
     padding: 5px 0px;
     margin-top: 20px;
 }
-.row.text-center {
+/* .row.text-center {
     gap: 20px;
-}
+} */
 .wrk{
     text-align: center;
 }
