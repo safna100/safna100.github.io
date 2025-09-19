@@ -187,11 +187,17 @@ a.social i{
 .uiux:hover img{
    background-color: transparent;
 }
-.uiux {
+/* .uiux {
     margin-top: 70px;
     background-color: #f5f5f5;
     border-radius: 25px;
     padding: 10px;
+} */
+.uiux {
+    margin-top: 90px;
+    background-color: #f5f5f5;
+    border-radius: 23px;
+    padding: 40px 10px;
 }
 .uiux h5{
    color: #686767;
@@ -201,6 +207,17 @@ a.social i{
 .uiux:hover h5{
    color: #fff;
 }
+/* .icon i:hover{
+    background: #fffcfce8;
+    padding: 10px;
+    border-radius: 10px;
+} */
+.icon i:hover {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .services-heading{
     padding: 10px;
     margin-top: 65px;
@@ -215,29 +232,44 @@ a.social i{
     font-family: i;
     margin-top: 27px;
 } */
-.ui-btn {
-  border: dashed 1px #B48A00;
-  color: rgb(3, 3, 3);
-   border-radius: 8px;
-   padding: 10px 8px;
-   width: fit-content;
+.ui-btn:hover {
+    /* border: dashed 1px #B48A00; */
+    color: rgb(3, 3, 3);
+    border-radius: 6px;
+    padding: 10px 8px;
+    width: fit-content;
+    background: white;
 }
+.ui-btn{
+   background-color: #bda75f;
+   padding: 10px 8px;
+   border-radius: 6px;
+   color: black;
+}
+
 .pl-0{
    padding-left: 0;
+}
+.ui-btn:hover{
+   color: #000;
 }
 .ui-btn a{
    color:#000000;
    font-weight: 10px;
 }
 .ui-btn:hover a{
-   color:#f3f2f2;
+   color:#050505;
    font-weight: 10px;
 }
-.ui-btn:hover{
-   border: dashed 1px #000;
+.ui-btn:hover {
+    /* border: dashed 1px #000; */
+    accent-color: #ffffff5e;
 }
 .uiux:hover{
    background: #B48A00;
+}
+.uiux i{
+   
 }
 
 .uxbtn {
