@@ -544,6 +544,9 @@ img.dp-icon {
     padding: 5px 0px;
     margin-top: 20px;
 }
+.row.text-center {
+    gap: 20px;
+}
 .wrk{
     text-align: center;
 }
@@ -551,16 +554,15 @@ img.dp-icon {
 section.tools {
     background: #9d916a;
 }
-.mytools i{
+.mytools i {
     font-size: 50px;
-    border: solid 1px #ffff;
-    border-radius: 10px;
+    background: #ffff;
+    border-radius: 15px;
     padding: 8px 15px;
-
 }
 .mytools img {
     font-size: 50px;
-    border: solid 1px #ffff;
+    background-color: #fff;
     border-radius: 10px;
     padding: 0px 1px;
     width: 71px;
