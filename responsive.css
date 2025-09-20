@@ -24,7 +24,7 @@
 }
 @media screen and (max-width:375px) {
     .wrk img {
-    width: -webkit-fill-available;
+    width: 90px;
     
 }
 .mytools i{
