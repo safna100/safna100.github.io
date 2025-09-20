@@ -24,9 +24,7 @@
 }
 @media screen and (max-width:365px) {
     .work img {
-    width: 90%;
-    padding: 5px 0px;
-    margin-top: 20px;
+    width: -webkit-fill-available;
 }
     
 }
@@ -37,4 +35,3 @@
     margin-top: 30px;
 }
     
-}
