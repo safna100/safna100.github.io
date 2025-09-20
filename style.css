@@ -271,6 +271,12 @@ a.social i{
 .uiux i{
    
 }
+.portfolio p{
+    background: linear-gradient(139deg, #9f9520, #f1ecec);
+    width: fit-content;
+    padding: 6px 11px;
+    border-radius: 7px;
+}
 
 .uxbtn {
     display: flex;
@@ -572,7 +578,7 @@ img.dp-icon {
 }
 
 .work img {
-    width: 56%;
+    width: 60%;
     padding: 5px 0px;
     margin-top: 20px;
 }
