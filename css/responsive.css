@@ -1,0 +1,92 @@
+
+@media screen and (max-width:1299px) {
+   
+    
+}
+@media screen and (max-width:1023px) {
+   
+    
+}
+@media screen and (max-width:991px) {
+    .navbar nav ul {
+    display: flex;
+    list-style: none;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    stroke: white;
+    margin: 0;
+    gap: 10px ;
+}
+.header_cnt {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+a.icon-fb {
+    color: white;
+    /* padding-right: 40px; */
+    background: #FF317D;
+    padding: 13px 18px;
+    border-radius: 11px;
+}
+section#footer {
+    background: black;
+    padding: 60px 0px;
+}
+.social_footer {
+    margin-top: 10px;
+}
+.buttons:hover {
+    background: none;
+    width: fit-content;
+    border-radius: 20px;
+    display: inline;
+}
+    
+}
+@media screen and (max-width:767px) {
+    .html {
+    display: flex;
+    gap: 12px;
+}
+.card.h-100.p-4.shadow-sm.text-center {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.contact-cnt.p-5 {
+    margin-bottom: 66px;
+    margin-top: 30px;
+}
+.navbar {
+    display: none;
+}
+.toggle_btn{
+    display: block;
+}
+
+.dropdown_menue{
+    display: block;
+}
+.lets-talk {
+    display: none;
+}
+button{
+    display: block;
+}
+    
+}
+@media screen and (max-width:575px) {
+    
+}
+@media screen and (max-width:425px) {
+    
+}
+@media screen and (max-width:365px) {
+   
+}
+    
+
