@@ -5,9 +5,11 @@
 /* .header_cnt img{
     width: 50px;
 } */
- body{
-    overflow-x: hidden;
- }
+
+.container{
+    overflow: hidden !important;
+}
+
 .navbar nav ul {
     display: flex;
     list-style: none;
@@ -351,7 +353,12 @@ h1 {
   width: min(60rem, 90%);
   /* margin-inline: auto; */
 }
-
+.box img{
+    filter: grayscale(1);
+}
+.box img:hover{
+    filter: grayscale(0);
+}
 /* line */
  .education ul::before {
   content: "";
@@ -695,7 +702,7 @@ hr{
 
 
 
-/* .toggle_btn span{
+.toggle_btn span{
     display: block;
     background-color: #000000;
     height: 2px;
@@ -719,7 +726,7 @@ hr{
 }
 .dropdown_menue{
     display: none;
-} */
+}
 
  /* Toggle Button */
    button{

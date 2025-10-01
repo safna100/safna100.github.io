@@ -4,6 +4,14 @@ $(document).ready(function(){
         // $('header nav ul').toggleClass('toggled');
     })
 
+    $('.toggle_btn').click(function(){
+        $('.menu').addClass('menuactive');
+        // $('header nav ul').toggleClass('toggled');
+    })
+    $('.toggle_btn').click(function(){
+        $('.menu').removeClass('menuactive');
+        // $('header nav ul').toggleClass('toggled');
+    })
 })
 
 
