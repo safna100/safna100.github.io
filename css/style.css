@@ -792,6 +792,11 @@ hr{
     button{
         display: none;
     }
+    [data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+    overflow-x: hidden;
+}
 
     /* type-writter */
     
