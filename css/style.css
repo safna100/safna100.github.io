@@ -59,6 +59,7 @@ a.talk {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+    margin-top: 35px;
 }
 
 nav li a{
@@ -337,6 +338,14 @@ h1 {
   color: var(--color);
   background: var(--bgColor);
 } */
+body{
+    background-color: rgba(245, 245, 245);;
+     display: grid;
+    align-content: center;
+     gap: 2rem;
+     /* padding: 2rem; */
+     font-family: "Poppins", sans-serif;
+}
 
 h1 {
   text-align: center;
