@@ -98,6 +98,9 @@ body{
     body{
         overflow-x: hidden;
     }
+    .html.aos-init.aos-animate {
+    scale: .8;
+}
     
 }
     
