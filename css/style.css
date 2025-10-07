@@ -10,6 +10,7 @@
     overflow: hidden !important;
 }
 
+
 .navbar nav ul {
     display: flex;
     list-style: none;
@@ -324,7 +325,7 @@ h1 {
   box-sizing: border-box;
 }
 
-body {
+/* body {
   --color: rgba(30, 30, 30);
   --bgColor: rgba(245, 245, 245);
   min-height: 100vh;
@@ -335,7 +336,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--color);
   background: var(--bgColor);
-}
+} */
 
 h1 {
   text-align: center;
@@ -796,7 +797,7 @@ hr{
 
     /* type-writter */
     
-
+   
 
 
 
