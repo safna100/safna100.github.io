@@ -104,6 +104,9 @@ body{
 .safna img {
     width: 80%;
 }
+.html.aos-init.aos-animate {
+    scale: 0.8;
+}
     
 }
     
