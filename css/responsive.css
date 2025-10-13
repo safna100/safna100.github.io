@@ -89,6 +89,9 @@ body{
 .container{
     overflow: hidden !important;
 }
+.language {
+    scale: 0.8;
+}
     
 }
 @media screen and (max-width:425px) {
