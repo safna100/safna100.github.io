@@ -799,6 +799,9 @@ hr{
     button{
         display: none;
     }
+    .hero-cnt.aos-init.aos-animate {
+    margin-top: 60px;
+}
     
 
     /* type-writter */
