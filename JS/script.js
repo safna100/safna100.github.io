@@ -14,4 +14,12 @@ $(document).ready(function(){
     })
 })
 
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 50) {
+    $("header_cnt").addClass("scrolled");
+  } else {
+    $("header_cnt").removeClass("scrolled");
+  }
+});
+
 
