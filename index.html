@@ -16,6 +16,14 @@
 </head>
 
 <body>
+    <!-- loading -->
+    <div id="page-loader">
+        <div class="dots-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
     <header class="bg">
         <div class="container">
             <div class="header_cnt">
@@ -453,6 +461,21 @@
         }
          });
     </script>
+
+
+
+<!-- page-loader -->
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.getElementById("page-loader");
+            loader.style.opacity = "0";
+            loader.style.transition = "opacity 0.4s ease";
+            setTimeout(() => {
+            loader.style.display = "none";
+            }, 400);
+        });
+   </script>
+
     
     <!-- <script>
         const toggle_btn = document.querySelector('toggle_btn')
