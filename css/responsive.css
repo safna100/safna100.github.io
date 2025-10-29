@@ -92,9 +92,15 @@ body{
 .language {
     scale: 0.8;
 }
+ .work_secn {
+    padding: 1rem;
+}
     
 }
 @media screen and (max-width:425px) {
+    .work_secn {
+    padding: 1rem;
+}
     
 }
 @media screen and (max-width:365px) {
