@@ -237,6 +237,29 @@ img.women {
     scale: 0.8;
     bottom: 32px;
 }
+.button-container a {
+  text-decoration: none;
+  color: #ff0072;
+  background-color: #ffffff;
+  border: 2px solid #ff0072;
+  padding: 12px 36px;
+  border-radius: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.button-container a:hover{
+  background-color: #ff0072;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(255, 0, 114, 0.3);
+  transform: translateY(-3px);
+
+}
+.button-container {
+    justify-self: center;
+    margin-top: 50px;
+}
     
 .hero-cnt h2{
     margin-bottom: 35px;
@@ -282,7 +305,7 @@ img.women {
     transition: .5s;
 }
 .tool img:hover{
-    translate: 0px -15px;
+    translate: 0px -35px;
 }
 /* .tools {
     display: flex;
