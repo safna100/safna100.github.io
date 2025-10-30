@@ -1,0 +1,244 @@
+
+@media screen and (max-width:1299px) {
+    .about img {
+    position: absolute;
+    width: 72%;
+    top: 50px;
+}
+    
+    
+}
+@media screen and (max-width:991px) {
+    .about img {
+    position: absolute;
+    width: 97%;
+    top: 100px;
+}
+.about {
+    margin-top: 97px;
+}
+.bells h5 {
+    font-size: large;
+}
+.automated {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.phone img {
+    /* width: 100%; */
+    background: radial-gradient(circle at center,#83E6F8 -23%, transparent 65%);
+    padding: 30px;
+    border-radius: 80px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 48px;
+}
+.login img{
+    width: 35%;
+}
+.login{
+    margin-bottom: 40px;
+}
+.header-cnt ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 8px;
+   width: 185px;
+    margin: auto;
+}
+.benefits-feature .numbers::after {
+    content: '';
+    height: 97px;
+    width: 1px;
+    background: #c1c1c1;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.benefit_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    scale: 1.5;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.facebook {
+    margin-top: 37px;
+    margin-left: 10px;
+}
+.get {
+    margin-left: 10px;
+}
+.hero-condent h1 {
+    font-size: 55px;
+    margin-top: 90px;
+}
+.automated i {
+    background-color: #005777;
+    color: white;
+    padding: 5px 13px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.automated {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bells {
+    background: #F4F3F3;
+    padding: 11px 10px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.benefit_img img {
+    width: 70%;
+}
+.benefits-cnt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 19px;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.benefits-feature {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1px;
+}
+.benefits {
+    margin-left: 20px;
+}
+.smart_choice p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+    
+}
+@media screen and (max-width:767px) {
+    #WhyChoose {
+    background: #E4EDF0;
+    margin: 70px 0;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+img.phone {
+    width: 100%;
+    margin-top: 25px;
+}
+.navbar{
+    display: none;
+}  
+#WhyChoose {
+    background: #E4EDF0;
+    margin: 70px 0;
+    width: 100%;
+    height: 100%;
+}
+.benefits-cnt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 128px;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+.benefit_img img {
+    width: 50%;
+    margin-top: 83px;
+}
+/* .about img {
+    position: absolute;
+    width: 87%;
+    top: 138px;
+} */
+.quick_features {
+    margin: 90px 0;
+    margin-bottom: 22px;
+    margin-top: 20px;
+}
+.phone img {
+    /* width: 100%; */
+    background: radial-gradient(circle at center,#83E6F8 -23%, transparent 65%);
+    padding: 30px;
+    border-radius: 80px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 75px;
+}
+.hero-cnt {
+    height: auto;
+}
+.navbar {
+    display: none;
+}
+.toggle_btn{
+    display: block;
+}
+.contact{
+    display: none;
+}
+.toggle_btn{
+    display: block;
+}
+.nav{
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.3s ease;
+    opacity: 1;
+    width: 100%;
+    z-index: 100;
+}
+button{
+    display: block;
+}
+
+
+}
+@media screen and (max-width:575px) {
+    .benefit_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    scale: 1;
+}
+    
+}
+@media screen and (max-width:425px) {
+    
+}
+@media screen and (max-width:365px) {
+
+}
+    
+
+
+    

@@ -38,6 +38,12 @@ body{
 header {
     background:#F5F5F5;
 }
+/* type-writter */
+
+
+
+
+
 /* nav{
     margin-top: 40px;
 } */
@@ -49,12 +55,20 @@ header {
     height: fit-content;
     padding: 8px 16px;
 } */
-a.talk {
+/* a.talk {
     background: black;
     color: white;
     border-radius: 22px;
     height: fit-content;
     padding: 15px 23px;
+    text-decoration: none;
+} */
+a.talk {
+    background: black;
+    color: white;
+    border-radius: 22px;
+    height: fit-content;
+    padding: 11px 25px;
     text-decoration: none;
 }
 .header_cnt {
@@ -896,6 +910,18 @@ hr{
     transform: scale(1.1);
 }
 
+
+
+/* .card{
+    transition: 0.3s ease;
+    overflow: hidden;
+
+}
+.card:hover{
+    border: #ff0072 solid 2px;
+    transform: scale(1.1);
+
+} */
 /* loading */
 #page-loader {
   position: fixed;
@@ -947,6 +973,9 @@ hr{
     transform: translateY(-10px);
   }
 }
+
+
+
 
 
 
