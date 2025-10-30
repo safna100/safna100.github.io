@@ -57,3 +57,6 @@ a.talk {
     padding: 15px 23px;
     text-decoration: none;
 }
+.lets-talk {
+    display: none;
+}

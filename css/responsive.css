@@ -84,6 +84,14 @@ section#footer {
 button{
     display: block;
 }
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-self: center;
+    margin-top: 15px;
+}
     
 }
 @media screen and (max-width:575px) {
