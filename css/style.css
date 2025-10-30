@@ -979,10 +979,13 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 8px 14px;
-}button{
+    padding: 8px 14px;}
+/* button{
     display: block;
-}
+} */
+/* button#toggleBtn {
+    display: none;
+} */
 .button-web {
     display: flex;
     flex-direction: row;
