@@ -872,9 +872,7 @@ hr{
       color: #4CAF50;
       transform: scale(1.1);
     }
-    button{
-        display: none;
-    }
+    
     .hero-cnt.aos-init.aos-animate {
     margin-top: 60px;
 }
@@ -972,6 +970,29 @@ hr{
   50% {
     transform: translateY(-10px);
   }
+}
+
+.buttons{
+    display: inline;
+}
+.button-web {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 8px 14px;
+}button{
+    display: block;
+}
+.button-web {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px 18px;
+    color: black;
+}
+.button-web button:hover{
+    background-color: #ff0072;
+    border: none;
 }
 
 

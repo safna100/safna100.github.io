@@ -45,6 +45,13 @@ section#footer {
     border-radius: 20px;
     display: inline;
 }
+.button-web {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 30px;
+    /* color: black; */
+}
     
 }
 @media screen and (max-width:767px) {
@@ -115,6 +122,12 @@ body{
 }
 .html.aos-init.aos-animate {
     scale: 0.8;
+}
+a.btn {
+    font-size: 13px;
+}
+.work_secn {
+    margin-bottom: 30px;
 }
     
 }
