@@ -74,6 +74,10 @@ section#footer {
 .toggle_btn{
     display: block;
 }
+.header_cnt h1 {
+    margin-top: 13px;
+    margin-bottom: 44px;
+}
 
 .dropdown_menue{
     display: block;
