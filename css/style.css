@@ -106,8 +106,13 @@ nav li a{
 nav ul li{
     text-align: center;
 }
- nav ul li a {
+nav ul li a {
     color: white;
+    text-decoration: underline 2px black;
+    text-underline-offset: 8px;
+}
+nav ul li a:hover{
+    text-decoration: underline 2px white;
 }
 .be {
     color: white;
@@ -629,6 +634,7 @@ ul.time_line {
 section#footer {
     background: black;
     padding: 60px 34px;
+    position: relative;
 }
 .cool{
    color:#FF317D;
@@ -723,6 +729,16 @@ hr{
     justify-content: center;
     gap: 20px;
 }
+/* .arrow {
+    background: white;
+    display: flex;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 9px 13px;
+    border-radius: 10px;
+} */
 .arrow {
     background: white;
     display: flex;
@@ -732,6 +748,9 @@ hr{
     bottom: 0;
     padding: 9px 13px;
     border-radius: 10px;
+    position: absolute;
+    bottom: 9%;
+    right: 4%;
 }
 .arrow a{
     color: #000000;
@@ -880,7 +899,7 @@ hr{
 
     /* type-writter */
 
-/*   
+  
 .box {
     position: relative;
     overflow: hidden;
@@ -1051,8 +1070,8 @@ button#toggleBtn {
   width: 12px;
   height: 12px;
   background-color: #ffffff;
-  border-radius: 10%;
-  animation: bounce 0.6s ease-in-out infinite;
+  border-radius: 50%;
+  animation: bounce 1s ease-in-out infinite;
 }
 
 .dots-loader span:nth-child(2) {
