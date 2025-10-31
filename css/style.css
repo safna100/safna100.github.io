@@ -1090,5 +1090,8 @@ button#toggleBtn {
     transform: translateY(-10px);
   }
 }
-
+button.web {
+    display: flex;
+    padding: 5px 10px;
+}
 
