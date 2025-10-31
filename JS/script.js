@@ -22,6 +22,20 @@ $(window).scroll(function () {
   }
 });
 
+
+
+// page-loader
+window.addEventListener("load", function () {
+        const loader = document.getElementById("page-loader");
+        const minimumDisplayTime = 1600;
+        setTimeout(() => {
+            loader.style.opacity = "0";
+            const fadeOutDuration = 400; 
+            setTimeout(() => {
+                loader.style.display = "none";
+            }, fadeOutDuration);
+        }, minimumDisplayTime);
+    });
 // +++++++++++++++++++++++++++++++++++++++++++++++++++
 // type-writter
 // +++++++++++++++++++++++++++++
