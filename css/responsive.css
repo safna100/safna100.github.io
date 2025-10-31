@@ -106,11 +106,18 @@ button#toggleBtn {
     position: absolute;
     right: 0;
     bottom: 0;
-    padding: 9px 13px;
+    padding: 13px 18px;
     border-radius: 10px;
     position: absolute;
     bottom: 5%;
     right: 4%;
+}
+.condent h1 {
+    text-align: center;
+    font-size: 31px;
+}
+p.aos-init.aos-animate {
+    font-size: 14px;
 }
     
 }
@@ -169,6 +176,10 @@ a.btn {
 }
 .work_secn {
     margin-bottom: 30px;
+}
+p.aos-init.aos-animate {
+    font-size: 10px;
+    scale: 1.1;
 }
     
 }
