@@ -952,8 +952,10 @@ hr{
     height: 12px;
     background-color: #000000;
     border-radius: 20%;
-    animation: bounce 0.3s ease-in-out infinite;
+    animation: bounce 1.2s ease-in-out infinite;
 }
+
+
 
 .dots-loader span:nth-child(2) {
   animation-delay: 0.1s;
@@ -1005,6 +1007,9 @@ button#toggleBtn {
 }
 
 
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 
