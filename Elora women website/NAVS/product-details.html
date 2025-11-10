@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/NAVS/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="">
+            <p class="tag">“Free Shipping on Orders ₹999 • Easy Returns • Cash on Delivery Available”
+                “Free Shipping on Orders ₹999 • Easy Returns • Cash on Delivery Available”
+            </p>
+            <div class="header-cnt">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="search">
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Search for</span>
+                    </div>
+                    <img src="img/camera 5.png" alt="">
+
+                </div>
+                <div class="icons">
+                    <img src="img/Add user.png" alt="">
+                    <a href="/NAVS/wishlist.html">
+                        <img src="img/heart .png" alt="">
+                    </a>
+
+                    <img src="img/Add to basket.png" alt="">
+                </div>
+            </div>
+            <nav>
+                <ul class="menue">
+                    <li><a href="#">ALL PRODUCT</a></li>
+                    <li><a href="#">NEW IN</a></li>
+                    <li><a href="#">WINTERWEAR</a></li>
+                    <li><a href="#">DENIM</a></li>
+                    <li><a href="#">TOPS</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="product-detail">
+        <div class="container">
+            <div class="home-cnt">
+                <a class="home" href="/index.html">HOME</a>
+                <a class="home" href=""><i class="fa-solid fa-chevron-right"></i></a>
+                <a class="shop" href="../NAVS/product.html">SHOP</a>
+                <a class="home" href=""><i class="fa-solid fa-chevron-right"></i></a>
+                <a class="al-produc" href="">MAROON PRINTED CHIFFON SHIRT</a>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="main-section sticky-top ">
+                        <!-- <div class="product-section">
+                            <img src="img/Group 227.png" alt="">
+                            <img src="img/Group 226.png" alt="">
+                            <img src="img/Group 228.png" alt="">
+                            <img src="img/Group 229.png" alt="">
+
+                        </div>
+                        <div class="main-img">
+                            <img src="img/main-img(1) 1.png" alt="">
+                        </div> -->
+
+                        <div class="gallery-container">
+                            <div class="thumbnails">
+                                <img src="img/Group 227.png" class="thumb active" alt="">
+                                <img src="img/Group 226.png" class="thumb" alt="">
+                                <img src="img/Group 228.png" class="thumb" alt="">
+                                <img src="img/Group 229.png" class="thumb" alt="">
+
+                            </div>
+
+                            <div class="main-image">
+                                <button class="arrow left">&#10094;</button>
+                                <img id="mainImg" src="img/" alt="Main">
+                                <button class="arrow right">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="top-details">
+                        <h4>Maroon Printed Chiffon Shirt</h4>
+                        <h6>₹ 1,250</h6>
+                        <div class="price">
+                            <span class="mrp">MRP  </span>
+                            <span class="mrp">₹ 2,499 </span>
+                            <span class="offer">50% OFF</span>
+                        </div>
+                        <p>inclusive of all taxes</p>
+                        <p class="emi">or/pay <span class="pp">₹417</span>/month in 0% EMIs <span class="pp">snapmint
+                            </span>Buy on EMI <i class="fa-solid fa-chevron-right"></i> </p>
+                        <p class="sentence">Step Up Your Style Game With This Fab Printed Chiffon Shirt, Sprinkled With
+                            A Touch Of Lurex For That Extra Sparkle! It'S Got A Relaxed Fit That'S Perfect For Keeping
+                            It Comfy Yet Chic. Long Sleeves With Wide Buttoned Cuffs Add A Trendy Twist, And The
+                            Straight</p>
+                        <a class="read-bt" href="">READ MORE</a>
+                        <div class="size">
+                            <h6>Size Chart</h6>
+                            <!-- <div class="size-span">
+                                <span class="size">34</span>
+                                <span class="size">36</span>
+                                <span class="size">38</span>
+                                <span class="size">40</span>
+                            </div> -->
+
+                            <div class="size-chart">
+                                <span class="size-btn">XS</span>
+                                <span class="size-btn">S</span>
+                                <span class="size-btn">M</span>
+                                <span class="size-btn">L</span>
+                                <span class="size-btn">XXL</span>
+                            </div>
+
+                            <button id="sizeChartBtn">Size Chart</button>
+                            <div id="sizeChartModal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <h2 style="text-align:center;">SIZE CHART</h2>
+                                    <div class="tabs">
+                                        <button class="tab-link active" onclick="showTab('cm')">CM</button>
+                                        <button class="tab-link" onclick="showTab('inch')">INCHES</button>
+                                    </div>
+                                    <div id="cm" class="tab-content" style="display:block;">
+                                        <div class="scroll-table">
+                                            <table>
+                                                <tr>
+                                                    <th>Sizes in alpha</th>
+                                                    <th>XXS</th>
+                                                    <th>XS</th>
+                                                    <th>S</th>
+                                                    <th>M</th>
+                                                    <th>L</th>
+                                                    <th>XL</th>
+                                                    <th>XXL</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sizes in Numeric</td>
+                                                    <td>32</td>
+                                                    <td>34</td>
+                                                    <td>36</td>
+                                                    <td>38</td>
+                                                    <td>40</td>
+                                                    <td>42</td>
+                                                    <td>44</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>UK</td>
+                                                    <td>4</td>
+                                                    <td>6</td>
+                                                    <td>8</td>
+                                                    <td>10</td>
+                                                    <td>12</td>
+                                                    <td>14</td>
+                                                    <td>16</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>US</td>
+                                                    <td>0</td>
+                                                    <td>2</td>
+                                                    <td>4</td>
+                                                    <td>6</td>
+                                                    <td>8</td>
+                                                    <td>10</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>bust</td>
+                                                    <td>75</td>
+                                                    <td>80</td>
+                                                    <td>85</td>
+                                                    <td>90</td>
+                                                    <td>95</td>
+                                                    <td>100</td>
+                                                    <td>105</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Shoulder</td>
+                                                    <td>35</td>
+                                                    <td>36</td>
+                                                    <td>37</td>
+                                                    <td>38</td>
+                                                    <td>39</td>
+                                                    <td>40</td>
+                                                    <td>41</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div id="inch" class="tab-content" style="display:none;">
+                                        <div class="scroll-table">
+                                            <table>
+                                                <tr>
+                                                    <th>Sizes in alpha</th>
+                                                    <th>XXS</th>
+                                                    <th>XS</th>
+                                                    <th>S</th>
+                                                    <th>M</th>
+                                                    <th>L</th>
+                                                    <th>XL</th>
+                                                    <th>XXL</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>bust</td>
+                                                    <td>30</td>
+                                                    <td>32</td>
+                                                    <td>33.5</td>
+                                                    <td>35.5</td>
+                                                    <td>37.5</td>
+                                                    <td>39.5</td>
+                                                    <td>41.5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Shoulder</td>
+                                                    <td>13.8</td>
+                                                    <td>14.1</td>
+                                                    <td>14.6</td>
+                                                    <td>15</td>
+                                                    <td>15.4</td>
+                                                    <td>15.7</td>
+                                                    <td>16.1</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <a class="chart-btn" href="">Size Chart</a> -->
+                            <div class="cart-section">
+                                <a class="cart-btn" href="">ADD TO CART</a>
+                                <a class="heart-btn" href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <span>Festive Offer:<i class="fa-solid fa-tag"></i></span>
+
+                            <div class="offers-scroll">
+                                <div class="offer-card">
+                                    SHOP FOR RS. 3499 AND GET RS.300 OFF (Code: NEW300)
+                                </div>
+                                <div class="offer-card">
+                                    SHOP FOR RS. 4999 AND GET RS.500 OFF (Code: DIWALI500)
+                                </div>
+                                <div class="offer-card">
+                                    SHOP FOR RS. 999 ONLY (Code: FLASH99)
+                                </div>
+                            </div>
+                            <div class="size-detail">
+                                <span>SIZE DETAILS</span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="size-detail">
+                                <span>PRODUCT DESCRIPTION</span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="size-detail">
+                                <span>ADDITIONAL INFORMATION</span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="pincode-row">
+                                <input type="text" class="pincode-input" placeholder="Check Pincode for Delivery">
+                                <button class="check-btn">Check</button>
+                            </div>
+                            <div class="easy-return">
+                                <div class="return-arrow">
+                                    <i class="fa-solid fa-right-left"></i>
+                                </div>
+
+                                <span>15 days return policy</span>
+                            </div>
+                            <div class="easy-return">
+                                <div class="return-arrow">
+                                    <i class="fa-solid fa-shirt"></i>
+                                </div>
+
+                                <span>New styles every week</span>
+                            </div>
+                            <div class="easy-return">
+                                <div class="return-arrow">
+                                    <i class="fa-solid fa-money-check-dollar"></i>
+                                </div>
+
+                                <span>Easy checkout with multiple payment options</span>
+                            </div>
+                            <hr>
+                            <div class="ratings">
+
+                                <div class="rate">
+                                    <div class="rating">
+                                        <h4>Ratings</h4>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="star-h2">
+                                                <div class="stars">
+                                                    <h2>4.1</h2>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <p>798 Verified Buyers</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="main-graph">
+                                                <div class="graph">
+                                                    <div class="graph-heading">
+                                                        <h6>5</h6>
+                                                        <i class="fa-solid fa-star star"></i>
+                                                    </div>
+                                                    <div class="g1">
+                                                        <div class="g2"></div>
+                                                        <div class="g3"></div>
+                                                    </div>
+                                                    <span>1577</span>
+                                                </div>
+                                                <div class="graph">
+                                                    <div class="graph-heading">
+                                                        <h6>4</h6>
+                                                        <i class="fa-solid fa-star star"></i>
+                                                    </div>
+                                                    <div class="g1">
+                                                        <div class="g2-1"></div>
+                                                        <div class="g3-1"></div>
+                                                    </div>
+                                                    <span>585</span>
+                                                </div>
+                                                <div class="graph">
+                                                    <div class="graph-heading">
+                                                        <h6>3</h6>
+                                                        <i class="fa-solid fa-star star"></i>
+                                                    </div>
+                                                    <div class="g1">
+                                                        <div class="g2-2"></div>
+                                                        <div class="g3-2"></div>
+                                                    </div>
+                                                    <span>205</span>
+                                                </div>
+                                                <div class="graph">
+                                                    <div class="graph-heading">
+                                                        <h6>2</h6>
+                                                        <i class="fa-solid fa-star star"></i>
+                                                    </div>
+                                                    <div class="g1">
+                                                        <div class="g2-3"></div>
+                                                        <div class="g3-3"></div>
+                                                    </div>
+                                                    <span>210</span>
+                                                </div>
+                                                <div class="graph">
+                                                    <div class="graph-heading">
+                                                        <h6>1</h6>
+                                                        <i class="fa-solid fa-star star"></i>
+                                                    </div>
+                                                    <div class="g1">
+                                                        <div class="g2-4"></div>
+                                                        <div class="g3-4"></div>
+                                                    </div>
+                                                    <span>210</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="customer">
+                                <div class="customer-heading">
+                                    <h4>What Customers Said</h4>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="fit">
+                                    <h5>Fit</h5>
+                                    <div class="right">
+                                        <div class="g1-1">
+                                            <div class="g2-1"></div>
+                                            <div class="g3-1"></div>
+
+                                        </div>
+                                        <span>Just Right (80%)</span>
+                                    </div>
+
+                                </div>
+                                <div class="fit">
+                                    <h5>Length</h5>
+                                    <div class="right">
+                                        <div class="g1-1">
+                                            <div class="g2-1"></div>
+                                            <div class="g3-1"></div>
+
+                                        </div>
+                                        <span>Just Right (90%)</span>
+                                    </div>
+
+                                </div>
+                                <div class="fit">
+                                    <h5>Transparency</h5>
+                                    <div class="right">
+                                        <div class="g1-1">
+                                            <div class="g2-11"></div>
+                                            <div class="g3-11"></div>
+
+                                        </div>
+                                        <span>Just Right (63%)</span>
+                                    </div>
+
+                                </div>
+                                <div class="view-details">
+                                    <h6>View Details</h6>
+                                    <hr>
+                                    <h5>Customer Photos </h5>
+                                    <img src="img/Group 230.png" alt="">
+                                    <div class="review">
+                                        <h6>Customer Reviews (92)</h6>
+                                    </div>
+                                    <div class="review-cnt">
+                                        <div class="5-star">
+                                            <h6>5</h6>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <p>Color: The vibrant mustard yellow shade is eye-catching and ideal for both
+                                            daytime wear and festive occasions. It’s bold yet elegant. • Embroidery: The
+                                            white thread embroidery on the neckline and sleeves adds a lovely, delicate
+                                            contrast to the base color. The vine pattern is tasteful and not overly
+                                            ornate—great for a clean, modern look.</p>
+                                    </div>
+                                    <div class="product-imges">
+                                        <img src="img/123.png" alt="">
+                                        <img src="img/Group 239.png" alt="">
+                                        <div class="spans">
+                                            <span>Prabhjot1| Aug 2025</span>
+                                            <div class="liked">
+                                                <div class="like">
+                                                    <i class="fa-regular fa-thumbs-up"></i>
+                                                    <span>15</span>
+                                                </div>
+                                                <div class="like">
+                                                    <i class="fa-regular fa-thumbs-down"></i>
+                                                    <span>0</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="nex-cmnt">
+                                            <div class="review-cnt">
+                                                <div class="5-star">
+                                                    <h6>5</h6>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <p>One of their best kurta. The colour is very very nice. The fabric is
+                                                    comfortable to wear. Material and quality is great. Indo Era never
+                                                    disappoints though. Thanks Myntra and Indo Era for giving us
+                                                    beautiful clothes.</p>
+                                            </div>
+                                            <img src="img/Group 239.png" alt="">
+                                            <div class="spans">
+                                                <span>Siddesh27|Aug 2025</span>
+                                                <div class="liked">
+                                                    <div class="like">
+                                                        <i class="fa-regular fa-thumbs-up"></i>
+                                                        <span>15</span>
+                                                    </div>
+                                                    <div class="like">
+                                                        <i class="fa-regular fa-thumbs-down"></i>
+                                                        <span>0</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="cmnt-92">
+                                                <h6>View all 92 viewes</h6>
+                                                <span>Product Code: 32902377</span>
+                                                <div class="seller"></div>
+                                                <span class="11">Seller:ZENZIOR BRAND TECHNOLOGY PRIVATE LIMKTED </span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="shop-the-look">
+                <h2>SHOP THE LOOK</h2>
+                <div class="shop-heading">
+                    <div class="look-dress">
+                        <div class="look-img">
+                            <img src="img/l1.png" alt="">
+                        </div>
+
+                        <h6>Dirty Pote Grey Boxy Fit </h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 1,604  </span>
+                            <span class="old-pp">₹2,295</span>
+                            <span class="box">25% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look-img">
+                            <img src="img/l2.png" alt="">
+                        </div>
+
+                        <h6>Yellow Printed Boxy Fit</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 2,604  </span>
+                            <span class="old-pp">₹4,295</span>
+                            <span class="box">20% OFF</span>
+
+                        </div>
+                    </div>
+
+                    <div class="look-dress">
+                        <div class="look-img">
+                            <img src="img/l3.png" alt="">
+                        </div>
+
+                        <h6>Cream Sheer Knit Mini Dress</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 3,604  </span>
+                            <span class="old-pp">₹4,295</span>
+                            <span class="box">25% OFF</span>
+
+                        </div>
+                    </div>
+
+                    <div class="look-dress">
+                        <div class="look-img">
+                            <img src="img/l4.png" alt="">
+                        </div>
+
+                        <h6>Brown Strappy Mini Dress</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 2,604  </span>
+                            <span class="old-pp">₹3,295</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <hr>
+            <div class="similar">
+                <h2>SIMILAR STYLES</h2>
+                <div class="similar-img">
+                    <div class="look2-dress">
+                        <div class="look2-img">
+                            <img src="img/sm1.png" alt="">
+                        </div>
+
+                        <h6>Pink Printed Mini Dress</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 2,604  </span>
+                            <span class="old-pp">₹3,295</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/sm2.png" alt="">
+                        </div>
+
+                        <h6>Olive Printed Mini Dress</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 3,604  </span>
+                            <span class="old-pp">₹4,295</span>
+                            <span class="box">20% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/sm3.png" alt="">
+                        </div>
+
+                        <h6>Blue Strappy Midi Dress</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 1,04  </span>
+                            <span class="old-pp">₹4,295</span>
+                            <span class="box">20% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/sm4.png" alt="">
+                        </div>
+
+                        <h6>White Embroidered Dress</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 1,604  </span>
+                            <span class="old-pp">₹5,295</span>
+                            <span class="box">30% OFF</span>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="similar-img">
+                    <div class="look2-dress">
+                        <div class="look2-img">
+                            <img src="img/Group 12.png" alt="">
+                        </div>
+
+                        <h6>White Cotton Embroidered </h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 2,604  </span>
+                            <span class="old-pp">₹3,295</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g131.png" alt="">
+                        </div>
+
+                        <h6>Light Blue Cotton Midi </h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 3,000  </span>
+                            <span class="old-pp">₹4,000</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g141.png" alt="">
+                        </div>
+
+                        <h6>Black V-Neck Midi Dress</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 1,347  </span>
+                            <span class="old-pp">₹4,065</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g151.png" alt="">
+                        </div>
+
+                        <h6>Orange Drawstring Detail </h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 1,604  </span>
+                            <span class="old-pp">₹5,295</span>
+                            <span class="box">30% OFF</span>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="similar-img">
+                    <div class="look2-dress">
+                        <div class="look2-img">
+                            <img src="img/g15.png" alt="">
+                        </div>
+
+                        <h6>Dark Green Printed Midi</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 2,604  </span>
+                            <span class="old-pp">₹3,295</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g161.png" alt="">
+                        </div>
+
+                        <h6>Pink Floral Print Frill</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 3,784  </span>
+                            <span class="old-pp">₹4,985</span>
+                            <span class="box">40% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g181.png" alt="">
+                        </div>
+
+                        <h6>Yellow Top</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 1,604  </span>
+                            <span class="old-pp">₹3,295</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g19.png" alt="">
+                        </div>
+
+                        <h6>Green Pearl Embellished Strappy Top</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 1,004  </span>
+                            <span class="old-pp">₹3,795</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="similar-img">
+                    <div class="look2-dress">
+                        <div class="look2-img">
+                            <img src="img/g20.png" alt="">
+                        </div>
+
+                        <h6>Pink Cuffed Sleeves Shirt</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 3,604  </span>
+                            <span class="old-pp">₹6,295</span>
+                            <span class="box">30% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g21.png" alt="">
+                        </div>
+
+                        <h6>Beige Boxy Fit Cotton </h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 2,604  </span>
+                            <span class="old-pp">₹5,295</span>
+                            <span class="box">20% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g22.png" alt="">
+                        </div>
+
+                        <h6>Maroon Textured Shirt</h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 1,04  </span>
+                            <span class="old-pp">₹5,295</span>
+                            <span class="box">40% OFF</span>
+
+                        </div>
+                    </div>
+                    <div class="look-dress">
+                        <div class="look2-img">
+                            <img src="img/g23.png" alt="">
+                        </div>
+
+                        <h6>Green Textured Oversized </h6>
+                        <div class="price">
+                            <span class="new-pp">₹ 2,604  </span>
+                            <span class="old-pp">₹5,295</span>
+                            <span class="box">10% OFF</span>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        </div>
+        </div>
+
+    </section>
+    <footer>
+        <!-- <div class="newsletter">
+                    <i class="fa-regular fa-envelope"></i>
+                    <label>JOIN OUR NEWSLETTER</label>
+                    <input type="email" placeholder="Enter Your Email Address Here" />
+                    <button>Subscribe</button>
+                </div> -->
+        <div class="footer-main">
+            <div class="footer-column">
+                <h4>Collections</h4>
+                <ul>
+                    <li>Denim</li>
+                    <li>Shirt</li>
+                    <li>Winter Wear</li>
+                    <li>Co-ordsets</li>
+                    <li>Autumn Wear</li>
+                    <li>Skirt</li>
+                    <li>All Product</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Help</h4>
+                <ul>
+                    <li>My Order Account</li>
+                    <li>Items and Sizes</li>
+                    <li>Gift Options</li>
+                    <li>Shipping</li>
+                    <li>Payment and Invoices</li>
+                    <li>My Purchases</li>
+                    <li>Exchanges, Return and Refund</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li>Newsletters</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>X</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Join Life</li>
+                    <li>Offices</li>
+                    <li>Stores</li>
+                    <li>Work With Us</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Policies</h4>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Purchase Conditions</li>
+                    <li>Gift Card Conditions</li>
+                    <li>Cookies Settings</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <small>
+                    Name and address of the manufacturer... <br />
+                    (address portion for legal info)
+                </small>
+            </div>
+
+        </div>
+        <div class="line">
+            <hr>
+            <div class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="span">
+                <span>English © All rights reserved</span>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const btn = document.getElementById("sizeChartBtn");
+            const modal = document.getElementById("sizeChartModal");
+            const closeBtn = document.querySelector(".close");
+            btn.onclick = function () {
+                modal.style.display = "flex";
+            }
+            closeBtn.onclick = function () {
+                modal.style.display = "none";
+            }
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        });
+        function showTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+            document.getElementById(tabId).style.display = 'block';
+            document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('active'));
+            if (tabId === 'cm')
+                document.querySelector('.tab-link:nth-child(1)').classList.add('active');
+            else
+                document.querySelector('.tab-link:nth-child(2)').classList.add('active');
+        }
+    </script>
+
+    <!-- shop-the-look -->
+
+    <script>
+  const fadeElements = document.querySelectorAll('.fade-up');
+
+  const appearOptions = {
+    threshold: 0.3
+  };
+
+  const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    });
+  }, appearOptions);
+
+  fadeElements.forEach(el => {
+    appearOnScroll.observe(el);
+  });
+</script>
+
+</body>
+
+</html>
