@@ -66,24 +66,46 @@ a{
 .menue a{
   color: #000;
 }
-.hero-section img{
+/* .hero-section img{
   position: relative;
+} */
+ .hero-section img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.hero-cnt {
+
+/* .hero-cnt {
     position: absolute;
-    /* bottom: 48%; */
     left: 9%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     top: 5% !important;
+} */
+
+.hero-section {
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
 }
+
+.hero-cnt {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+
 h1 {
     color: white;
     font-size: 56px;
 }
 .hero-cnt p {
-    color: white;
+    color: #e9e9e9;
     margin-top: 10px;
 }
 .main-btn {
@@ -194,6 +216,9 @@ a.more {
     text-decoration: underline;
 }
 
+
+
+
 /* services */
 /* .service-cnt {
     display: flex;
@@ -291,7 +316,7 @@ a.more-btn {
     border-radius: 20px;
 }
 .choose-cnt p {
-    text-align: justify;
+    /* text-align: justify; */
     margin-top: 20px;
     padding-bottom: 25px;
 }
@@ -449,11 +474,24 @@ form.signup-form {
     text-align: center;
     margin-top: 64px;
 }
-.\31 st-member {
+/* .\31 st-member {
     background: white;
     width: fit-content;
     box-shadow: 0px 2px 1px 1px #b7b7b7;
+} */
+
+.\31 st-member {
+    width: 100%;
+    max-width: 100%;
 }
+.\31 st-member img {
+    width: 100%;
+    display: block;
+}
+.team-cnt {
+    padding: 12px 8px 16px;
+}
+
 .team-cnt {
     text-align: center;
     margin-top: 5px;
@@ -705,4 +743,48 @@ button.sub-bt {
     /* list-style: none; */
     display: none;
     /* gap: 20px; */
+}
+
+
+
+#hero {
+    margin-top: 12px;
+}
+
+
+/* //////////////////// */
+
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 87px;
+}
+
+.hero-section img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero-cnt {
+    position: relative;
+    max-width: 600px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+     /* ////////////////////////// */
+
+     .box {
+    width: 100%;
+    max-width: 100%;
+}
+.box img {
+    width: 100%;
+    display: block;
 }
