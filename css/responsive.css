@@ -224,12 +224,7 @@ p.aos-init.aos-animate {
  
     margin-left: 10px;
 }
-.service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 }
     
 
