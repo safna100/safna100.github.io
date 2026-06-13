@@ -615,9 +615,8 @@ ul.time_line {
     margin-bottom: 50px;
 }
 #work {
-    background: white;
+    background: #0000000a;
 }
-
 .box img {
     border-radius: 20px;
     margin-bottom: 22px;
