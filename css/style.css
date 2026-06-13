@@ -441,9 +441,9 @@ h1 {
   width: min(60rem, 90%);
   /* margin-inline: auto; */
 }
-.box img{
+/* .box img{
     filter: grayscale(1);
-}
+} */
 .box img:hover{
     filter: grayscale(0);
 }
