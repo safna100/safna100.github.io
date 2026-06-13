@@ -532,6 +532,19 @@
         });
     </script>
 
+<script>
+    window.addEventListener('scroll', function() {
+    // ഹെഡർ എലമെന്റ് സെലക്ട് ചെയ്യുന്നു
+    const header = document.querySelector('.bg');
+    
+    // 100px-ൽ കൂടുതൽ സ്ക്രോൾ ചെയ്താൽ 'scrolled' എന്ന ക്ലാസ് ആഡ് ചെയ്യും, ഇല്ലെങ്കിൽ റിമൂവ് ചെയ്യും
+    if (window.scrollY > 100) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
+</script>
 
 
     <!-- page-loader -->
